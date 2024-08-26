@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="style/style.css">
+    
+</head>
+<body>
+    <main>
+        <header>
+            <img class="alura__logo" src="/imagens/ico.png" alt="letra g"><h1 class="titulo">Challenge Decodificador de Texto</h1>
+        </header>
+            <textarea class="decodificador__texto" type="text" placeholder="Digite seu texto"></textarea>
+            <section class="area__botoes">
+                <p class="texto__aviso"> 
+                    <img class="icone__exclamacao" src="/imagens/alert.png" alt="alerta"> Apenas letras minúsculas e sem acento.
+                </p>
+                <button class="botao" id="botao__criptografar" type="button" onclick="criptografarTexto()"><img src="/imagens/lock.png" height="15"> Criptografar</button>
+                <button class="botao" id="botao__descriptografar" type="button" onclick="descriptografarTexto()"><img src="/imagens/unlock.png" height="15"> Descriptografar</button>
+            </section>
+            <section class="area__decodificacao">
+                <img class="imagem__personagem" src="/imagens/img.png" alt="imagem do gilton desenvolvedor">
+                <p class="notificacao__texto">Nenhuma mensagem encontrada</p>
+                <p class="texto__decodificado" name="texto">Insira um texto que você deseja criptografar ou descriptografar</p>
+                <button class="botao__oculto" id="botao__copiar" type="button">Copiar</button>
+            </section>
+            
+    </main>
+        <footer class="rodape">
+            <p class="texto__rodape">Criado por Gilton Alves - 2024    |   Social: </p>
+            <a class="link__contato" href="https://github.com/Gilton-Alves/" target="_blank">
+                <img src="/imagens/github-icon.png" alt="ícone do github">
+            </a>
+            <a class="link__contato" href="https://www.linkedin.com/in/gilton-alves10/" target="_blank">
+                <img src="/imagens/linkedin-icon.png" alt="ícone do linkedin">
+            </a>
+        </footer>
+    <script src="/script.js"></script>
+</body>
+</html>
